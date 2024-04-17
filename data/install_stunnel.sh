@@ -87,7 +87,7 @@ debug = 0
 output = /tmp/stunnel.log
 cert = /etc/stunnel/stunnel.pem
 [openvpn-tcp]
-connect = PORT_TCP  
+connect = 1194  
 accept = 443
 [ssh]
 connect = 22
