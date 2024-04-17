@@ -22,7 +22,7 @@ CHATID="6582195916"
 KEY="7123941357:AAGRvwO9SiZadggGnkpmDeS8XPf1mnP_iOw"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
-TEXT="Installation VIP OVPN-Script
+TEXT="Installation VIP OVPN-Script-V3
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
 <code>Name       :</code> <code>$Name</code>
 <code>Username   :</code> <code>najhi</code>
