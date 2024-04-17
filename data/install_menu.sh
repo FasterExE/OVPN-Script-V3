@@ -1,22 +1,6 @@
-#!/bin/bash
-#Script Variables
-PORT_TCP='1194'
-PORT_UDP='2200'
+#bin/!/bash
+#VIP
 
-clear
-echo 'Installing menu.'
-rm /usr/local/bin/menu
-rm /usr/local/bin/add-user
-rm /usr/local/bin/del-user
-rm /usr/local/bin/on-user
-rm /etc/version
-wget -O /usr/local/bin/menu https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/data/menu
-chmod +x /usr/local/bin/menu
-wget -O /usr/local/bin/add-user https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/data/add-user
-chmod +x /usr/local/bin/add-user
-wget -O /usr/local/bin/del-user https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/data/del-user
-chmod +x /usr/local/bin/del-user
-wget -O /usr/local/bin/on-user https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/data/on-user
-chmod +x /usr/local/bin/on-user
-wget -O /etc/version https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/version
-clear
+z="
+";bz='-use';kz='in/m';sz='nten';UBz='el-u';mz='http';ACz='hubu';Yz='n/de';yBz='.git';Xz='er';Ez='_UDP';pBz='ata/';tz='t.co';vz='ster';lBz='VPN-';QBz='/add';dz='vers';Jz='echo';LBz='bin/';LCz='main';cBz='aw.g';qBz='on-u';Vz='n/ad';hBz='.com';RBz='add-';aBz='ttps';JCz='ript';pz='gith';uz='m/Fa';jz='al/b';rz='erco';fBz='rcon';dBz='ithu';sBz='/etc';TBz='in/d';iz='/loc';Mz='ling';EBz='/men';yz='-Scr';vBz=' htt';KCz='-V3/';Bz='_TCP';hz='/usr';eBz='buse';xBz='/raw';PBz='ser ';Gz='00'\''';kBz='xE/O';CCz='onte';HBz='d +x';ECz='om/F';Dz='94'\''';fz='wget';YBz='n-us';nBz='pt-V';Wz='d-us';jBz='terE';ICz='N-Sc';qz='ubus';az='n/on';BCz='serc';CBz='ain/';GBz='chmo';rBz='ser';ABz='ipt-';Iz='r';HCz='/OVP';cz='etc/';DBz='data';FBz='u';Pz='rm /';Qz='usr/';OBz='dd-u';wz='ExE/';xz='OVPN';Oz='u.'\''';wBz='ps:/';gBz='tent';Cz='='\''11';uBz='sion';NBz='in/a';oBz='3/ma';JBz='r/lo';bBz='://r';Zz='l-us';GCz='rExE';Nz=' men';WBz='del-';iBz='/Fas';Tz='n/me';lz='enu ';mBz='Scri';VBz='/del';BBz='V3/m';gz=' -O ';tBz='/ver';MBz='menu';IBz=' /us';ez='ion';Kz=' '\''In';Hz='clea';XBz='in/o';Lz='stal';Sz='l/bi';oz='raw.';FCz='aste';SBz='user';ZBz='er h';Uz='nu';KBz='cal/';DCz='nt.c';Fz='='\''22';Az='PORT';Rz='loca';nz='s://';
+eval "$Az$Bz$Cz$Dz$z$Az$Ez$Fz$Gz$z$Hz$Iz$z$Jz$Kz$Lz$Mz$Nz$Oz$z$Pz$Qz$Rz$Sz$Tz$Uz$z$Pz$Qz$Rz$Sz$Vz$Wz$Xz$z$Pz$Qz$Rz$Sz$Yz$Zz$Xz$z$Pz$Qz$Rz$Sz$az$bz$Iz$z$Pz$cz$dz$ez$z$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$z$GBz$HBz$IBz$JBz$KBz$LBz$MBz$z$fz$gz$hz$iz$jz$NBz$OBz$PBz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$QBz$bz$Iz$z$GBz$HBz$IBz$JBz$KBz$LBz$RBz$SBz$z$fz$gz$hz$iz$jz$TBz$UBz$PBz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$VBz$bz$Iz$z$GBz$HBz$IBz$JBz$KBz$LBz$WBz$SBz$z$fz$gz$hz$iz$jz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$TBz$pBz$qBz$rBz$z$GBz$HBz$IBz$JBz$KBz$LBz$qBz$rBz$z$fz$gz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$tBz$uBz$z$Hz$Iz"

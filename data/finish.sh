@@ -1,29 +1,6 @@
-#!/bin/bash
-#Script Variables
-PORT_TCP='1194'
-PORT_UDP='2200'
-IP=$(hostname -I | awk '{print $1}')
-domain=`cat /etc/domain/d-domain`
-flare=`cat /etc/domain/f-domain`
+#bin/!/bash
+#VIP
 
-clear
-echo -e "\033[1;96m──────────────────────────────────\033[0m"
-echo -e "\033[1;97m         SCRIPT BY ILYASS\033[0m"
-echo -e "\033[1;96m──────────────────────────────────\033[0m"
-echo -e "\033[1;97mIP               : $IP\033[0m"
-echo -e "\033[1;97mHost             : $domain\033[0m"
-echo -e "\033[1;97mCloudflare       : $flare\033[0m"
-echo -e "\033[1;97mPort OVPN TCP    : 1194\033[0m"
-echo -e "\033[1;97mPort OVPN UDP    : 2200\033[0m"
-echo -e "\033[1;97mPort OVPN WS     : 80\033[0m"
-echo -e "\033[1;97mPort OVPN SSL    : 443\033[0m"
-echo -e "\033[1;96m──────────────────────────────────\033[0m"
-echo "0 4 * * * /sbin/shutdown -r +15" >> /var/spool/cron/crontabs/root
-echo
-echo
-history -c;
-rm setup.sh
-rm finish.sh
-echo "Server will secure this server and reboot after 20 seconds"
-sleep 20
-reboot
+z="
+";dBz='3\03';nz='────';Az='PORT';jz=' -e ';fz='ain`';uz='PT B';sBz='onta';RBz=' TCP';LCz='s se';FCz=' "Se';ez='-dom';BBz='P   ';RCz=' sec';bBz=' SSL';TBz='94\0';UCz='p 20';IBz='n\03';gBz='* * ';OBz='97mP';NCz=' reb';SBz=': 11';JCz='cure';ABz='97mI';Nz='{pri';UBz='33[0';Oz='nt $';PBz='ort ';cBz=': 44';Iz='(hos';bz='at /';qBz='/cro';LBz='e   ';Rz='in=`';nBz='> /v';Xz='main';az='e=`c';ZBz=' WS ';Sz='cat ';oBz='ar/s';pBz='pool';xBz='-c;';OCz='oot ';QCz='r 20';sz='    ';VBz='m"';KBz='loud';DCz='inis';oz='─\03';iz='echo';lBz='r +1';DBz='P\03';Zz='flar';GCz='rver';mBz='5" >';Yz='`';lz='3[1;';Uz='/dom';tz='SCRI';iBz='n/sh';JBz='97mC';WBz=' UDP';PCz='afte';BCz='.sh';ECz='h.sh';tBz='bs/r';jBz='utdo';rBz='n/cr';Kz='e -I';Jz='tnam';MCz=' and';wBz='ory ';qz='"';dz='in/f';kBz='wn -';SCz='onds';CCz='rm f';WCz='ot';CBz=': $I';ACz='etup';Ez='_UDP';pz='3[0m';hBz='/sbi';Mz='wk '\''';yz='[0m"';Bz='_TCP';FBz='ost ';Dz='94'\''';vz='Y IL';Pz='1}'\'')';Hz='IP=$';xz='\033';gz='clea';Gz='00'\''';Wz='d-do';QBz='OVPN';eBz=' "0 ';kz='"\03';Tz='/etc';uBz='oot';TCz='slee';ICz='l se';GBz=': $d';hz='r';Fz='='\''22';HCz=' wil';Vz='ain/';HBz='omai';Cz='='\''11';vBz='hist';MBz=': $f';wz='YASS';yBz='rm s';XBz=': 22';rz='97m ';mz='96m─';cz='etc/';VCz='rebo';Lz=' | a';Qz='doma';NBz='lare';YBz='00\0';KCz=' thi';fBz='4 * ';aBz=': 80';EBz='97mH';
+eval "$Az$Bz$Cz$Dz$z$Az$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$z$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$z$Zz$az$bz$cz$Qz$dz$ez$fz$z$gz$hz$z$iz$jz$kz$lz$mz$nz$nz$nz$nz$nz$nz$nz$nz$oz$pz$qz$z$iz$jz$kz$lz$rz$sz$sz$tz$uz$vz$wz$xz$yz$z$iz$jz$kz$lz$mz$nz$nz$nz$nz$nz$nz$nz$nz$oz$pz$qz$z$iz$jz$kz$lz$ABz$BBz$sz$sz$sz$CBz$DBz$pz$qz$z$iz$jz$kz$lz$EBz$FBz$sz$sz$sz$GBz$HBz$IBz$pz$qz$z$iz$jz$kz$lz$JBz$KBz$Zz$LBz$sz$MBz$NBz$xz$yz$z$iz$jz$kz$lz$OBz$PBz$QBz$RBz$sz$SBz$TBz$UBz$VBz$z$iz$jz$kz$lz$OBz$PBz$QBz$WBz$sz$XBz$YBz$UBz$VBz$z$iz$jz$kz$lz$OBz$PBz$QBz$ZBz$sz$aBz$xz$yz$z$iz$jz$kz$lz$OBz$PBz$QBz$bBz$sz$cBz$dBz$pz$qz$z$iz$jz$kz$lz$mz$nz$nz$nz$nz$nz$nz$nz$nz$oz$pz$qz$z$iz$eBz$fBz$gBz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$z$iz$z$iz$z$vBz$wBz$xBz$z$yBz$ACz$BCz$z$CCz$DCz$ECz$z$iz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$GCz$MCz$NCz$OCz$PCz$QCz$RCz$SCz$qz$z$TCz$UCz$z$VCz$WCz"

@@ -1,17 +1,6 @@
-#!/bin/bash
-#Script Variables
-PORT_TCP='1194'
-PORT_UDP='2200'
+#bin/!/bash
+#VIP
 
-clear
-echo "Installing iptables."
-iptables -t nat -A PREROUTING -p udp --dport 20000:50000 -j DNAT --to-destination :5666
-ip6tables -t nat -A PREROUTING -p udp --dport 20000:50000 -j DNAT --to-destination :5666
-echo "net.ipv4.ip_forward = 1
-net.ipv4.conf.all.rp_filter=0
-net.ipv4.conf.eth0.rp_filter=0
-net.core.wmem_max=16777216
-net.core.rmem_max=16777216
-net.ipv4.tcp_rmem=4096 262144 16777216
-net.ipv4.tcp_wmem=4096 262144 16777216" > /etc/sysctl.conf
-sysctl -p
+z="
+";KBz='v4.i';kz='n :5';Ez='_UDP';ez=' -j ';Cz='='\''11';vz='dpor';hz='o-de';Jz='echo';Rz='bles';YBz='h0.r';Tz='nat ';rz='OUTI';bz=' 200';ZBz='p_fi';Bz='_TCP';GBz='on :';wBz='sysc';iz='stin';iBz='.rme';dBz='.wme';tz='p ud';UBz='_fil';qz='PRER';cz='00:5';NBz='d = ';bBz='=0';tBz='ysct';sBz='tc/s';yz='5000';lz='666';sz='NG -';Qz='ipta';IBz=' "ne';Lz='stal';uBz='l.co';pz=' -A ';Vz='RERO';lBz='m=40';EBz='esti';oz=' nat';aBz='lter';uz='p --';Az='PORT';VBz='ter=';BBz=' DNA';DBz='to-d';Wz='UTIN';gBz='7772';XBz='f.et';Fz='='\''22';Hz='clea';nBz='6214';MBz='rwar';vBz='nf';PBz='net.';JBz='t.ip';Oz='able';CBz='T --';QBz='ipv4';Mz='ling';mz='ip6t';Iz='r';eBz='m_ma';Zz=' --d';xz='000:';Yz=' udp';RBz='.con';ABz='0 -j';TBz='l.rp';Sz=' -t ';mBz='96 2';HBz='5666';Pz='s."';xBz='tl -';Nz=' ipt';jz='atio';jBz='.tcp';OBz='1';kBz='_rme';Uz='-A P';Gz='00'\''';Xz='G -p';fBz='x=16';oBz='4 16';qBz='16" ';cBz='core';Kz=' "In';LBz='p_fo';Dz='94'\''';gz=' --t';nz='s -t';FBz='nati';fz='DNAT';wz='t 20';WBz='0';rBz='> /e';az='port';pBz='_wme';SBz='f.al';hBz='16';yBz='p';dz='0000';
+eval "$Az$Bz$Cz$Dz$z$Az$Ez$Fz$Gz$z$Hz$Iz$z$Jz$Kz$Lz$Mz$Nz$Oz$Pz$z$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$z$mz$Oz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$z$Jz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$z$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$PBz$QBz$RBz$XBz$YBz$ZBz$aBz$bBz$z$PBz$cBz$dBz$eBz$fBz$gBz$hBz$z$PBz$cBz$iBz$eBz$fBz$gBz$hBz$z$PBz$QBz$jBz$kBz$lBz$mBz$nBz$oBz$gBz$hBz$z$PBz$QBz$jBz$pBz$lBz$mBz$nBz$oBz$gBz$qBz$rBz$sBz$tBz$uBz$vBz$z$wBz$xBz$yBz"
