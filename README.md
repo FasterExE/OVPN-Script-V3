@@ -7,7 +7,7 @@ apt update && apt upgrade -y
 ## INSTALL SCRIPT 
 Enter the command below to install Ovpn Script by 𓆩 𝐈𝐋𝐘𝐀𝐒𝐒 𓆪
 ```
-rm setup2.sh > /dev/null 2>&1; wget https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/setup.sh; bash setup.sh
+rm setup.sh > /dev/null 2>&1; wget https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/setup.sh; bash setup.sh
 ```
 
 ## TESTED ON OS
